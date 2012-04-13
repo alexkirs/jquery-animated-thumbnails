@@ -1,7 +1,7 @@
 # jQuery plugin Animated Thumbnails
 
 ## Demo
-[Demo page: example.html](example.html)
+[Demo page: http://alexkirs.github.com/jquery-animated-thumbnails/example.html](http://alexkirs.github.com/jquery-animated-thumbnails/example.html)
 
 ## Quick start
 
@@ -18,5 +18,5 @@
 
 ## Options
 
-* hover_block
-* hover_class
+* hover_block - you can provide parent element which will handle :hover instead of image
+* hover_class - whicht CSS class to add to :hover element
