@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <style>
+    body {
+      background-color: #eee;
+    }
+    img {
+      border: 0px;
+    }
+    .video_block {
+      float: left;
+      background-color: #eee;
+      margin: 10px 10px 0 0;
+      height: 370px;
+      border: 0;
+      /*border:1px solid white;*/
+    }
+
+    .video_block .short {
+      display: block;
+    }
+    .video_block.hover .short {
+      display: none;
+    }
+    .video_block .long {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      background-color: #eee;
+    }
+    .video_block.hover .long {
+      display: block;
+    }
+
+    .video_block .options {
+      background-color: black;
+      color: white;
+    }
+
+    .video_block .options .duration {
+      float: right;
+    }
+
+  </style>
+</head>
+<body>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png,i/5.png,i/6.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png,i/5.png,i/6.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png,i/5.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">5 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">5 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">4 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">4 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png,i/5.png,i/6.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">3 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">1 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">1 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png,i/5.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">5 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">5 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png,i/3.png,i/4.png,i/5.png,i/6.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">6 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">1 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">1 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<div class="video_block" style="width: 308px;">
+  <a href="#"><img src="i/1.png" class="main thumb" data-images="i/1.png,i/2.png," /></a>
+  <div class="options">
+    <span class="rating">12343 Views</span>
+    <span class="duration">33:12</span>
+  </div>
+  <div class="short">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      description description description description description description description description 
+      description description description description description description description description 
+    </div>
+  </div>
+  <div class="long">
+    <a href="#">Some best title! <span style="color:red;font-wight:bold;">2 images</span></a>
+    <div class="">
+      Tags: tag1, tag2, tag3
+    </div>
+  </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.animated-thumbnails.js"></script>
+<script>
+$(document).ready(function(){
+  $('.thumb').animatedThumbnails({'hover_object':'.video_block', 'hover_class':'hover'});
+});
+</script>
+</body>
+</html>
