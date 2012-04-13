@@ -18,5 +18,5 @@
 
 ## Options
 
-* hover_block - you can provide parent element which will handle :hover instead of image
-* hover_class - whicht CSS class to add to :hover element
+* hover_block - what parent element will handle :hover instead of image
+* hover_class - which CSS class to add to :hover element
