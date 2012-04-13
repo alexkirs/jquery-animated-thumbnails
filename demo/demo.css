@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+}
+img {
+  border: 0px;
+}
+.video_block {
+  float: left;
+  background-color: #eee;
+  margin: 10px 10px 0 0;
+  height: 370px;
+  border: 0;
+  /*border:1px solid white;*/
+}
+
+.video_block .short {
+  display: block;
+}
+.video_block.hover .short {
+  display: none;
+}
+.video_block .long {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  background-color: #eee;
+}
+.video_block.hover .long {
+  display: block;
+}
+
+.video_block .options {
+  background-color: black;
+  color: white;
+}
+
+.video_block .options .duration {
+  float: right;
+}

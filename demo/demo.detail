@@ -1,0 +1,9 @@
+---
+name: jQuery plugin Animated Thumbnails DEMO
+description: Demo
+authors:
+ - Alex Kirs
+ - Sergey Korobov
+resources:
+normalize_css: no
+...
