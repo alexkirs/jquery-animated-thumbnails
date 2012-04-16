@@ -11,7 +11,7 @@
     .__jquery_at_thumb_controller.__jquery_at_active .__jquery_at_item { height: 8px; padding-top:10px;} \
     </style>';
     style += '<!--[if IE]><style type="text/css"> \
-    .__jquery_at_thumb_controller {} \
+    .__jquery_at_thumb_controller {background:url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)} \
     </style><![endif]-->';
     
     $(style).appendTo("head");
