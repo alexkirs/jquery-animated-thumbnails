@@ -1,15 +1,18 @@
 (function( $ ) {
   $.fn.animatedThumbnails = function(options) {
-    var style = "<style type='text/css'> \
-    .__jquery_at_hidden {visibility: hidden;} \
-    .__jquery_at_thumb {position: relative;} \
-    .__jquery_at_thumb img{/*margin-top: 18px;*/} \
+    var style = '<style type="text/css"> \
+    .__jquery_at_hidden * {visibility: hidden;} \
+    .__jquery_at_thumb {position: relative;z-index:0;} \
+    .__jquery_at_thumb img{position: relative; z-index:0;} \
     .__jquery_at_thumb_controller {z-index:10; top: -18px; position: absolute; border-collapse: collapse; width: 100%; border:0; } \
     .__jquery_at_thumb_controller .__jquery_at_item {padding: 15px 0 10px 0; height: 3px;} \
     .__jquery_at_thumb_controller .__jquery_at_item .__jquery_at_bar { background: black; height: 100%; } \
     .__jquery_at_thumb_controller .__jquery_at_item.__jquery_at_selected .__jquery_at_bar { background: red;} \
     .__jquery_at_thumb_controller.__jquery_at_active .__jquery_at_item { height: 8px; padding-top:10px;} \
-    </style>";
+    </style>';
+    style += '<!--[if IE]><style type="text/css"> \
+    .__jquery_at_thumb_controller {} \
+    </style><![endif]-->';
     
     $(style).appendTo("head");
 
@@ -28,7 +31,7 @@
         }
       }
           
-      var controller = $('<table class=__jquery_at_thumb_controller><tr></tr></table>').appendTo(container);
+      var controller = $('<table class="__jquery_at_thumb_controller"><tr></tr></table>').appendTo(container);
       controller.data('images', images);
   
       for (var i = 0; i < images.length; i++) {
