@@ -45,7 +45,7 @@
   </style>
 </head>
 <body>
-<h1>jQuery Animated Thumbnails plugin DEMO</h1>
+<h1>jQuery plugin Animated Thumbnails DEMO</h1>
 <br/>
 <?for($i = 0; $i < 18; $i++):?>
 		<div class="video_block" style="width: 308px;">
